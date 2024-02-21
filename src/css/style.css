@@ -1,0 +1,88 @@
+body{
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Kumbh Sans;
+}
+
+.card-perfil{
+    display: flex;
+    flex-direction: column;
+    background: url(../images/bg-pattern-card.svg);
+    justify-content: center;
+    align-items: center;
+    padding-top: 135px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.card-perfil .avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-bottom: 200px;
+}
+
+.card-perfil .avatar{
+    border-radius: 50%;
+    border: solid 5px white;
+    height: 115px;
+}
+
+.card-perfil .perfil{
+    background-color:white;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.card-perfil .perfil .nome{
+    margin-top: 65px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-perfil .perfil .peso{
+    font-weight: 300;
+    color: var(--cor-neutra);
+}
+
+.card-perfil .perfil .cidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: var(--cor-neutra);
+    font-weight: 500;
+    padding: 15px 0px 15px 0px;
+}
+
+.card-perfil .painel-seguidores{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px;
+    border-top: solid rgba(128, 128, 128, 0.389) 1px;
+}
+
+.card-perfil .painel .painel-seguidores .info{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.card-perfil .painel .painel-seguidores .info-titulo{
+    font-weight: 300;
+    color: var(--cor-neutra);
+    font-size: 10px;
+}
