@@ -1,4 +1,4 @@
-body{
+body {
     background-color: var(--cor-primaria);
     display: flex;
     justify-content: center;
@@ -7,82 +7,87 @@ body{
     font-family: Kumbh Sans;
 }
 
-.card-perfil{
+.fundo {
     display: flex;
     flex-direction: column;
     background: url(../images/bg-pattern-card.svg);
     justify-content: center;
     align-items: center;
     padding-top: 135px;
-    width: 350px;
+    width: 300px;
     border-radius: 10px;
 }
 
-.card-perfil .avatar{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.fundo .avatar {
     position: absolute;
     margin-bottom: 200px;
-}
-
-.card-perfil .avatar{
     border-radius: 50%;
     border: solid 5px white;
-    height: 115px;
 }
 
-.card-perfil .perfil{
-    background-color:white;
-    width: 350px;
+.fundo .perfil {
+    background-color: white;
+    width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     border-radius: 0px 0px 10px 10px;
 }
 
-.card-perfil .perfil .nome{
+.perfil .nome {
     margin-top: 65px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
-.card-perfil .perfil .peso{
+.perfil .peso {
     font-weight: 300;
     color: var(--cor-neutra);
 }
 
-.card-perfil .perfil .cidade{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.perfil .cidade {
     align-items: center;
     font-size: 10px;
     color: var(--cor-neutra);
     font-weight: 500;
-    padding: 15px 0px 15px 0px;
+    padding: 15px 0px;
 }
 
-.card-perfil .painel-seguidores{
-    display: flex;
-    flex-direction: row;
-    padding: 15px 20px;
+.perfil .painel {
+    padding: 15px 0px;
     border-top: solid rgba(128, 128, 128, 0.389) 1px;
 }
 
-.card-perfil .painel .painel-seguidores .info{
+.perfil .painel-seguidores {
     display: flex;
-    flex-direction: column;
-    margin: 0px 30px;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
+    flex-direction: row;
 }
 
-.card-perfil .painel .painel-seguidores .info-titulo{
+.perfil .info {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 29px;
+    align-items: center;
+    font-weight: 500;
+}
+
+.perfil .info-titulo {
     font-weight: 300;
     color: var(--cor-neutra);
     font-size: 10px;
+    padding-top: 3px;
+}
+
+@media(max-width:375px) {
+    .fundo {
+        width: 250px;
+    }
+
+    .fundo .perfil {
+        width: 250px;
+    }
+
+    .perfil .info {
+        margin: 0px 21px;
+    }
 }
