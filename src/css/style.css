@@ -20,7 +20,8 @@ body {
 
 .fundo .avatar {
     position: absolute;
-    margin-bottom: 200px;
+    margin-top: -90px;
+    margin-bottom: 90px;
     border-radius: 50%;
     border: solid 5px white;
 }
