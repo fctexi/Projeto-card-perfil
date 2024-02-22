@@ -19,7 +19,6 @@ I utilized HTML and CSS to recreate the profile card, breaking down the challeng
 - Semantic HTML5;
 - CSS custom properties;
 - Flexbox;
-- CSS Grid;
 
 ### The result of challenge
 
