@@ -16,12 +16,12 @@ body {
     padding-top: 135px;
     width: 300px;
     border-radius: 10px;
+    position: relative;
 }
 
 .fundo .avatar {
     position: absolute;
-    margin-top: -90px;
-    margin-bottom: 90px;
+    bottom: 140px;
     border-radius: 50%;
     border: solid 5px white;
 }
